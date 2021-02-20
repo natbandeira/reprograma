@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', 'Yu Gothic UI' , Helvetica, sans-serif;
+    margin: 0 ;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .caixa-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/banner-nat.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 80vh;
+  }
+  
+  .btn-branco{
+    background-color: white;
+    padding: 15px;
+    width: 180px;
+    border-radius: 80px;7
+  }
+  /*=========SECAO DE CONTEUDO============*/
+  
+  h2 {
+    font-size: 36px;
+    color: #C4C4C4;
+    margin: 50px;
+  }
+  
+  .caixa-secao-conteudo{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .caixa-somente-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .btn-roxo {
+    padding: 15px;
+    width: 190px;
+    border-radius: 80px;
+    border: #770d77 1px solid;
+    color: #770d77;
+    text-align: center;
+  }
+  
+  .caixa-texto-sobre-mim{
+    margin-bottom: 47px;
+    text-justify: center;
+  }
+  
+  
+  
+  .caixa-lista-sobre-mim{
+    margin: 35px 0;
+    text-align: left;
+    
+  }
+  
+  /*============redes sociais============*/
+  
+  .caixa-item-rede-social{
+    padding: 20px;
+    text-align: center;
+    background-color:#4f2a58;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .link-rede-social{
+    color: white;
+  }
+  
+  .caixa-mae-rede-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0 10px;
+  }
+  
+  footer{
+    text-align: center;
+    color: #C4C4C4;
+    padding: 30px;
+  }
+  
+  
+
+  @media (min-width: 768px){
+    .caixa-somente-conteudo{
+      flex-direction: row;
+      margin:25px 55px;
+    }
+  }
